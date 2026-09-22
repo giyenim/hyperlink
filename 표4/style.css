@@ -1,0 +1,161 @@
+﻿:root {
+    --보라: #551a8b;
+    --파랑: #0000ee;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Pretendard Variable", sans-serif;
+    background: white;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 2rem 4rem minmax(0, 1fr) 3rem;
+    height: 100dvh;
+}
+
+.표1로 {
+    background-color: var(--파랑);
+}
+
+.책등 {
+    padding: 0 1rem;
+    height: 100%;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    grid-template-columns: 30dvw minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    font-weight: normal;
+    border-bottom: 1px solid oklab(0 0 0 /1);
+    border-top: 1px solid oklab(0 0 0 / 1);
+
+    div:last-child {
+        position: relative;
+    }
+}
+
+.보라색-하이퍼링크 {
+    display: block;
+    height: 1.6rem;
+    width: auto;
+    transform: translateY(2px);
+}
+
+.독서감상웹사이트 {
+    color: var(--파랑);
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.잠재웹사이트작업실 {
+    color: var(--파랑);
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    font-family: "EB Garamond", serif;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform-origin: top left;
+    transform: rotate(-90deg) translate(-50%, -100%);
+}
+
+.공 {
+    width: 3rem;
+    height: 3rem;
+    fill: white;
+    stroke: var(--파랑);
+    stroke-width: 1px;
+
+    circle {
+        r: calc(1.5rem - 0.5px);
+    }
+
+    text {
+        fill: var(--파랑);
+        stroke: none;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+.표4 {
+    min-width: 0;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding: 2rem 1rem;
+}
+
+.표4::-webkit-scrollbar {
+    display: none;
+}
+
+.페이지 {
+    width: 100%;
+
+    h1 {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .공백 {
+        position: relative;
+        height: calc(100dvh - 11rem);
+    }
+}
+
+.다음페이지로이동할까요 {
+    position: relative;
+    overflow: clip;
+    color: var(--파랑);
+    border-top: 1px solid var(--파랑);
+    border-bottom: 1px solid var(--파랑);
+    display: grid;
+    place-items: center;
+}
+
+.이동 {
+    cursor: pointer;
+}
+
+.다음페이지로이동할까요 .공 {
+    position: absolute;
+}
+
+.다음페이지로이동할까요 .잠 {
+    left: 0;
+}
+
+.다음페이지로이동할까요 .웹 {
+    left: calc(100% / 3);
+}
+
+.다음페이지로이동할까요 .실 {
+    left: calc(100% / 3 * 2);
+}
+
+.표1로 a {
+    display: block;
+    height: 100%;
+}

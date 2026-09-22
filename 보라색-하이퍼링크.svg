@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="79 48 420 135">
+  <g fill="#551a8b">
+    <path fill-rule="evenodd" d="M81 85a22 20 0 1 0 44 0a22 20 0 1 0-44 0Z M95 85a8 8 0 1 0 16 0a8 8 0 1 0-16 0Z"/>
+    <rect x="79" y="64" width="48" height="13"/>
+    <rect x="87" y="48" width="32" height="11"/>
+    <path d="M138 48H153V74H169V88H153V137H138Z"/>
+    <path fill-rule="evenodd" d="M179 80a24.5 25 0 1 0 49 0a24.5 25 0 1 0-49 0Z M194 80a10 10 0 1 0 20 0a10 10 0 1 0-20 0Z"/>
+    <rect x="240" y="48" width="15" height="89"/>
+    <path fill-rule="evenodd" d="M271 55H317V68H311V91H317V105H271V91H276V68H271Z M291 68H296V91H291Z"/>
+    <path d="M330 48H346V137H330V88H316V74H330Z"/>
+    <path d="M362 55H404V86H377V93H404V105H362V74H389V67H362Z"/>
+    <rect x="417" y="48" width="15" height="89"/>
+    <path fill-rule="evenodd" d="M399 158.5a25 24.5 0 1 0 50 0a25 24.5 0 1 0-50 0Z M413 158.5a11 10.5 0 1 0 22 0a11 10.5 0 1 0-22 0Z"/>
+    <path d="M453 48H496V109H482V92H453V78H482V62H453Z"/>
+    <rect x="451" y="123" width="48" height="14"/>
+  </g>
+</svg>

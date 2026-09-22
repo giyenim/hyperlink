@@ -1,0 +1,38 @@
+.공.visited-공 circle {
+    stroke: var(--보라);
+}
+
+.공.visited-공 text {
+    fill: var(--보라);
+}
+
+.다음힌트.visited-공 {
+    fill: var(--보라);
+}
+
+.다음힌트.visited-공 text {
+    fill: white;
+}
+
+.다음페이지로이동할까요.visited-다음페이지로이동할까요 {
+    color: var(--보라);
+    border-color: var(--보라);
+}
+
+.다음페이지로이동힌트.visited-다음페이지로이동할까요 {
+    background-color: var(--보라);
+    color: white;
+}
+
+.표1로.visited-표지로,
+.표4로.visited-표지로 {
+    background-color: var(--보라);
+}
+
+.독서감상웹사이트.visited-독서감상웹사이트 {
+    color: var(--보라);
+}
+
+.잠재웹사이트작업실.visited-잠재웹사이트작업실 {
+    color: var(--보라);
+}
