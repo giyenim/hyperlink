@@ -1,5 +1,10 @@
-// 수정('<계>새 본문입니다.</계>')
-// 수정('<충 제목="새 제목">새 본문입니다.</충>')
+// 수정('<예원>새 본문입니다.</예원>')
+// 수정('<충근 제목="새 제목">새 본문입니다.</충근>')
+
+const 이름표 = {
+    충근: "충", 예원: "예", 계영: "계", 효경: "효", 선미: "선",
+    정아: "정", 정빈: "빈", 지은: "지", 상국: "상",
+};
 
 let server = null;
 let lastSeen = null;
@@ -35,9 +40,11 @@ async function 수정(입력) {
     if (!pages.length) return alert("입력 확인!");
 
     const { name, 제목, 문단 } = pages[0];
+    const 쪽 = 이름표[name];
+    if (!쪽) return alert("이름 확인!");
 
     try {
-        const 응답 = await fetch(`${server}/text/${name}`, {
+        const 응답 = await fetch(`${server}/text/${쪽}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ 제목, 문단 }),
