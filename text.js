@@ -86,6 +86,6 @@ function 본문그리기(데이터) {
         if (typeof 공굴러가요 === "function") 공굴러가요();
 
         // 모임 서버에 연결됐을 때만 편집 기능을 켠다
-        if (모임서버 && typeof 편집시작 === "function") 편집시작();
+        if (모임서버 && typeof startEditing === "function") startEditing();
     })
     .catch(() => { });
