@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+html,
+body {
+    overscroll-behavior: none;
+}
+
 body {
     margin: 0;
     font-family: "Pretendard Variable", sans-serif;
@@ -95,6 +100,7 @@ body {
 .표4 {
     min-width: 0;
     overflow-y: auto;
+    overscroll-behavior: none;
     scrollbar-width: none;
     padding: 2rem 1rem;
 }
