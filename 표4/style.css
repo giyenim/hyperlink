@@ -165,3 +165,75 @@ body {
     display: block;
     height: 100%;
 }
+
+@media (min-width: 1024px) {
+    .layout {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 4.5rem 2.5rem;
+        grid-template-rows: minmax(0, 1fr);
+    }
+
+    .다음페이지로이동할까요 {
+        order: 1;
+        align-self: center;
+        height: 3rem;
+    }
+
+    .표4 {
+        order: 2;
+        border-left: 1px solid oklab(0 0 0 / 1);
+    }
+
+    .페이지 .공백 {
+        height: calc(100dvh - 2rem);
+    }
+
+    .책등 {
+        order: 3;
+        padding: 2rem 0;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: 30dvh minmax(0, 1fr) minmax(0, 1fr);
+        justify-items: center;
+        align-items: start;
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid oklab(0 0 0 / 1);
+        border-right: 1px solid oklab(0 0 0 / 1);
+
+        div:first-child a {
+            display: block;
+            position: relative;
+            width: 2rem;
+            aspect-ratio: 135 / 420;
+        }
+
+        div:last-child {
+            align-self: end;
+        }
+    }
+
+    .표1로 {
+        order: 4;
+    }
+
+    .보라색-하이퍼링크 {
+        position: absolute;
+        height: 2rem;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-4px) translate(-50%, -50%) rotate(90deg);
+    }
+
+    .독서감상웹사이트 {
+        font-size: 1.1rem;
+        display: inline-block;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+    }
+
+    .잠재웹사이트작업실 {
+        font-size: 1.1rem;
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+}
