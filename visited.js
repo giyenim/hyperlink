@@ -1,17 +1,17 @@
 const 키 = "하이퍼링크:방문";
 
 const 페이지 = {
-    충: false, 예: false, 계: false, 효: false, 선: false, 정: false,
-    빈: false, 지: false, 상: false,
-    잠: false, 웹: false, 실: false,
+    잠: false, 재: false, 웹: false, 사: false, 이: false, 트: false,
+    작: false, 업: false, 실: false,
+    손: false, 계: false, 영: false,
     OuWePo: false,
 };
 if (!localStorage.getItem(키)) {
     localStorage.setItem(키, JSON.stringify(페이지));
 }
 
-const 표1페이지 = ["충", "예", "계", "효", "선", "정", "빈", "지", "상"];
-const 표4페이지 = ["잠", "웹", "실"];
+const 표1페이지 = ["잠", "재", "웹", "사", "이", "트", "작", "업", "실"];
+const 표4페이지 = ["손", "계", "영"];
 
 const 지금페이지 = document.querySelector(".지금 text").textContent;
 
