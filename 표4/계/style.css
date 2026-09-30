@@ -1,1 +1,7 @@
-﻿
+﻿.페이지 :is(dl, dt, dd) {
+    margin: revert;
+}
+
+.페이지 dt:not(:first-child) {
+    margin-top: 1rem;
+}
