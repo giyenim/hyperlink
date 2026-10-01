@@ -168,7 +168,7 @@ body {
 
 @media (min-width: 1024px) {
     .layout {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 4.5rem 2.5rem;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 4rem 2rem;
         grid-template-rows: minmax(0, 1fr);
     }
 
@@ -191,7 +191,7 @@ body {
         order: 3;
         padding: 2rem 0;
         grid-template-columns: minmax(0, 1fr);
-        grid-template-rows: 30dvh minmax(0, 1fr) minmax(0, 1fr);
+        grid-template-rows: 25dvh minmax(0, 1fr) minmax(0, 1fr);
         justify-items: center;
         align-items: start;
         border-top: none;
@@ -220,18 +220,18 @@ body {
         height: 2rem;
         top: 50%;
         left: 50%;
-        transform: translateX(-4px) translate(-50%, -50%) rotate(90deg);
+        transform: translateY(4px) translateX(-4px) translate(-50%, -50%) rotate(90deg);
     }
 
     .독서감상웹사이트 {
-        font-size: 1.1rem;
+        font-size: 1rem;
         display: inline-block;
         writing-mode: vertical-rl;
         text-orientation: sideways;
     }
 
     .잠재웹사이트작업실 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         position: static;
         transform: none;
         text-align: center;
